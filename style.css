@@ -1,149 +1,156 @@
 * {
-  padding: 0%;
-  margin: 0%;
-  box-sizing: border-box;
-  font-family: "Manrope", sans-serif;
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: "Manrope", sans-serif;
+}
+
+.container {
+    width: 95%;
+    max-width: 1280px;
+    margin: 0 auto
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
-
 .coffo-header {
-  width: 100%;
-  height: 650px;
-  background-image: url(images/cover.png);
-  background-size: 100%;
-  background-repeat: no-repeat;
+    width: 100%;
+    height: 650px;
+    background-image: url(images/cover.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 .coffo-navbar {
-  width: 90%;
-  height: 100px;
-  margin: auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .coffo-navbar a {
-  text-decoration: none;
-  color: white;
+    text-decoration: none;
+    color: white;
 }
 
 .coffo-logo {
-  letter-spacing: 2px;
-  font-size: 45px;
-  font-weight: 700;
+    letter-spacing: 2px;
+    font-size: 45px;
+    font-weight: 700;
 }
 
 .coffo-menu {
-  list-style: none;
-  display: flex;
-  padding: 0px 110px;
+    list-style: none;
+    display: flex;
+    padding: 0px 110px;
 }
 
 .coffo-menu li {
-  padding: 40px 40px;
+    padding: 40px 40px;
 }
 
 .coffo-menu li:hover {
-  background-color: #f01c1c;
-  cursor: pointer;
+    background-color: #f01c1c;
+    cursor: pointer;
 }
 
 .coffo-hero-section {
-  width: 60%;
-  height: 400px;
-  margin: 40px auto;
-  color: white;
+    width: 60%;
+    height: 400px;
+    margin: 40px auto;
+    color: white;
 }
 
 .coffo-hero-section span {
-  letter-spacing: 2px;
-  font-size: 85px;
-  font-weight: 900;
+    letter-spacing: 2px;
+    font-size: 85px;
+    font-weight: 900;
 }
 
 .coffo-hero-section p {
-  letter-spacing: 2px;
-  font-size: 15px;
-  font-weight: 200;
-  padding-left: 120px;
-  padding-bottom: 100px;
-  font-style: italic;
+    letter-spacing: 2px;
+    font-size: 15px;
+    font-weight: 200;
+    padding-left: 120px;
+    padding-bottom: 100px;
+    font-style: italic;
 }
 
 .coffo-hero-section button {
-  padding: 20px 50px;
-  border-radius: 10px;
-  margin-left: 80px;
-  cursor: pointer;
-  font-weight: 500;
+    padding: 20px 50px;
+    border-radius: 10px;
+    margin-left: 80px;
+    cursor: pointer;
+    font-weight: 500;
 }
 
 .coffo-hero-section button:hover {
-  background-color: #f01c1c;
-  color: white;
+    background-color: #f01c1c;
+    color: white;
 }
 
 .coffo-about-shop {
-  width: 80%;
-  height: 550px;
-  margin: auto;
+    width: 80%;
+    height: 550px;
+    margin: auto;
 }
 
 .coffo-about-shop .coffo-about-shop-1 {
-  height: 100%;
-  float: left;
-  width: 40%;
-  padding: 100px 0px;
+    height: 100%;
+    float: left;
+    width: 40%;
+    padding: 100px 0px;
 }
 
 .coffo-about-shop .coffo-about-shop-1 span {
-  letter-spacing: 1px;
-  font-size: 60px;
-  font-weight: 900;
-  color: #3b3b3b;
+    letter-spacing: 1px;
+    font-size: 60px;
+    font-weight: 900;
+    color: #3b3b3b;
 }
+
 .coffo-about-shop .coffo-about-shop-1 p {
-  letter-spacing: 1px;
-  font-size: 18px;
-  font-weight: 200;
-  padding: 50px 0px;
-  color: #3b3b3b;
+    letter-spacing: 1px;
+    font-size: 18px;
+    font-weight: 200;
+    padding: 50px 0px;
+    color: #3b3b3b;
 }
+
 .coffo-about-shop .coffo-about-shop-1 button {
-  padding: 20px 50px;
-  border-radius: 10px;
-  border: 1px solid #f01c1c;
-  color: #f01c1c;
-  cursor: pointer;
+    padding: 20px 50px;
+    border-radius: 10px;
+    border: 1px solid #f01c1c;
+    color: #f01c1c;
+    cursor: pointer;
 }
 
 .coffo-about-shop .coffo-about-shop-1 button:hover {
-  background-color: #f01c1c;
-  color: white;
+    background-color: #f01c1c;
+    color: white;
 }
+
 .coffo-about-shop .coffo-about-shop-2 {
-  height: 100%;
-  float: left;
-  width: 60%;
+    height: 100%;
+    float: left;
+    width: 60%;
 }
+
 .coffo-about-shop .coffo-about-shop-2 img {
-  width: 100%;
-  height: 100%;
+    width: 100%;
+    height: 100%;
 }
 
 .coffo-about-shop .coffo-about-shop-2 .img-area {
-  width: 80%;
-  height: 70%;
-  margin: 120px auto;
+    width: 80%;
+    height: 70%;
+    margin: 120px auto;
 }
 
 .coffo-about-shop .coffo-about-shop-2 .img-area img {
-  width: 100%;
+    width: 100%;
 }
 
 .coffo-about-shop .coffo-about-shop-2 .img-area img:hover {
-  transform: scale(1.3);
-  cursor: pointer;
+    transform: scale(1.3);
+    cursor: pointer;
 }
