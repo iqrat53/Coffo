@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FAQ</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,700&display=swap");
+
+      .container {
+        width: 95%;
+        max-width: 1280px;
+        margin: 0 auto;
+      }
+
+      .faq-header {
+        background-image: url(images/faqheader.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+      }
+      .coffo-logo {
+        letter-spacing: 2px;
+        font-size: 45px;
+        font-weight: 700;
+        padding-left: 50px;
+      }
+
+      .faq-header a {
+        text-decoration: none;
+        color: #3b3b3b;
+      }
+
+      .faq-section h2 {
+        text-align: right;
+        font-size: 60px;
+        padding-right: 80px;
+        padding-top: 140px;
+        padding-bottom: 50px;
+        color: white;
+      }
+
+      .faq-container {
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        padding-top: 20px;
+        margin-bottom: 20px;
+      }
+
+      .faq-image img {
+        width: 700px;
+        height: auto;
+        padding-top: 100px;
+      }
+
+      #accordion h3 {
+        background-color: #242c2f;
+        color: white;
+        padding: 10px;
+        border-radius: 5px;
+        font-size: 20px;
+      }
+
+      #accordion div {
+        background-color: #f1f1f1;
+        padding: 25px;
+        border-radius: 5px;
+        margin-bottom: 10px;
+      }
+
+      footer {
+        text-align: center;
+        padding: 10px;
+        background-color: #6f4c3e;
+        color: white;
+        position: relative;
+        bottom: 0;
+        width: 100%;
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://code.jquery.com/ui/1.14.0/themes/base/jquery-ui.css"
+    />
+  </head>
+  <body>
+    <div class="faq-section">
+      <div class="faq-header">
+        <a href="index.html" class="coffo-logo">COFFO</a>
+        <h2>Frequently Asked Questions</h2>
+      </div>
+      <div class="faq-container container">
+        <div class="faq-image">
+          <img src="images/faqs.png" alt="FAQ Image" />
+        </div>
+        <div class="faq-accordion">
+          <div id="accordion">
+            <h3>1. What types of coffee do you offer?</h3>
+            <div>
+              <p>We offer a diverse range of coffee types, including:</p>
+              <ul>
+                <li>
+                  <strong>Espresso:</strong> A concentrated coffee brewed by
+                  forcing hot water through finely-ground coffee beans.
+                </li>
+                <li>
+                  <strong>Americano:</strong> Espresso mixed with hot water for
+                  a milder flavor.
+                </li>
+                <li>
+                  <strong>Latte:</strong> Espresso combined with steamed milk
+                  and a small amount of milk foam.
+                </li>
+                <li>
+                  <strong>Cappuccino:</strong> Similar to a latte but with more
+                  foam and a sprinkle of cocoa powder.
+                </li>
+                <li>
+                  <strong>Cold Brew:</strong> Coffee brewed with cold water for
+                  an extended period, resulting in a smooth flavor.
+                </li>
+                <li>
+                  <strong>Flavored Coffee:</strong> A variety of coffee blends
+                  infused with flavors such as vanilla, caramel, or hazelnut.
+                </li>
+              </ul>
+            </div>
+            <h3>2. How should I store my coffee beans?</h3>
+            <div>
+              <p>
+                To maintain the freshness and flavor of your coffee beans, it's
+                essential to store them properly. Keep the beans in an airtight
+                container to protect them from moisture and air, which can cause
+                oxidation and loss of flavor. Store the container in a cool,
+                dark place, away from heat and sunlight, which can degrade the
+                beans' quality over time. Avoid storing coffee in the fridge or
+                freezer, as the fluctuating temperatures and moisture can
+                negatively affect the beans. Instead, aim to use the beans
+                within a few weeks of opening for the best taste.
+              </p>
+            </div>
+            <h3>
+              3. What grind size should I use for different brewing methods?
+            </h3>
+            <div>
+              <p>
+                The grind size of your coffee plays a significant role in
+                determining the flavor and extraction of your brew. Here’s a
+                quick guide:
+              </p>
+              <ul>
+                <li>
+                  <strong>Coarse grind:</strong> Ideal for French press and cold
+                  brew, as the larger grounds allow for slow extraction over a
+                  longer period.
+                </li>
+                <li>
+                  <strong>Medium grind:</strong> Best for drip coffee makers,
+                  pour-over methods, and Aeropress (with a shorter brew time).
+                  This grind size strikes a balance between quick extraction and
+                  a flavorful brew.
+                </li>
+                <li>
+                  <strong>Fine grind:</strong> Suitable for espresso machines,
+                  as the smaller particles allow for quick extraction under
+                  pressure. This grind creates a strong, concentrated shot of
+                  coffee.
+                </li>
+                <li>
+                  <strong>Extra fine grind:</strong> Typically used for Turkish
+                  coffee, where the grounds are almost powder-like to produce a
+                  thick, bold brew.
+                </li>
+              </ul>
+            </div>
+            <h3>4. How long do coffee beans stay fresh?</h3>
+            <div>
+              <p>
+                Coffee beans are at their freshest within 2-4 weeks of roasting.
+                After this period, they may begin to lose their aromatic oils
+                and flavors. Once you open a bag of coffee beans, it’s best to
+                consume them within a month for the richest taste. To maximize
+                freshness, store the beans in an airtight container away from
+                light, air, and moisture. Ground coffee loses freshness even
+                faster, so it's recommended to grind your beans just before
+                brewing.
+              </p>
+            </div>
+            <h3>5. Do you offer subscriptions for coffee deliveries?</h3>
+            <div>
+              <p>
+                Yes, we provide subscription options for coffee lovers who want
+                to receive their favorite blends regularly. You can choose your
+                preferred frequency (weekly, bi-weekly, or monthly) and
+                customize your selection to ensure you never run out of coffee.
+              </p>
+            </div>
+            <h3>6. What are the health benefits of coffee?</h3>
+            <div>
+              <p>
+                Moderate coffee consumption can offer several health benefits,
+                including:
+              </p>
+              <ul>
+                <li>
+                  <strong>Improved Mental Alertness:</strong> Caffeine can
+                  enhance focus and concentration.
+                </li>
+                <li>
+                  <strong>Rich in Antioxidants:</strong> Coffee contains
+                  antioxidants, which can help combat free radicals in the body.
+                </li>
+                <li>
+                  <strong>Reduced Risk of Certain Diseases:</strong> Studies
+                  suggest that coffee drinkers may have a lower risk of certain
+                  conditions, such as Parkinson’s disease, type 2 diabetes, and
+                  some types of cancer.
+                </li>
+              </ul>
+            </div>
+            <h3>7. Do you have a return policy?</h3>
+            <div>
+              <p>
+                Yes, we have a customer-friendly return policy. If you are not
+                satisfied with your purchase, you can return it within 30 days
+                for a full refund or exchange. Please ensure that the product is
+                unopened and in its original packaging for a hassle-free return
+                process.
+              </p>
+            </div>
+            <h3>
+              8. What is the difference between espresso and regular coffee?
+            </h3>
+            <div>
+              <p>
+                Espresso is brewed under high pressure with finely ground
+                coffee, resulting in a more concentrated and robust flavor than
+                regular drip coffee.
+              </p>
+            </div>
+            <h3>9. Do you offer decaffeinated coffee?</h3>
+            <div>
+              <p>
+                Yes, we offer a selection of decaffeinated coffee options for
+                those who enjoy the taste of coffee without the caffeine. Our
+                decaf coffee is processed using methods that preserve flavor
+                while removing most of the caffeine, ensuring a satisfying cup.
+              </p>
+            </div>
+            <h3>10. Are your coffee products gluten-free?</h3>
+            <div>
+              <p>
+                Yes, all our coffee products are naturally gluten-free. However,
+                cross-contamination can occur during processing, so we recommend
+                checking the packaging for gluten-free certifications if you
+                have severe gluten sensitivities.
+              </p>
+            </div>
+            <h3>11. Can I customize my coffee order?</h3>
+            <div>
+              <p>
+                Yes, we offer customization options for many of our coffee
+                products. You can choose your preferred roast level, grind size,
+                and even create a custom blend by selecting different coffee
+                types to mix. This way, you can tailor your coffee experience to
+                suit your taste preferences.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <p>&copy; [2024] Coffo Coffee. All rights reserved.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.14.0/jquery-ui.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

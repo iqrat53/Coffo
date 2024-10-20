@@ -1,3 +1,4 @@
+// SLIDER
 $(document).ready(function () {
   $(".coffee-slider").slick({
     slidesToShow: 4,
@@ -26,4 +27,10 @@ $(document).ready(function () {
       },
     ],
   });
+});
+
+// FAQ PAGE
+
+$(function () {
+  $("#accordion").accordion();
 });
