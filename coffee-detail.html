@@ -1,121 +1,173 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Coffee Details</title>
     <style>
-      body {
-        font-family: "Poppins", sans-serif;
-        background-color: #f4f4f4;
-        margin: 0;
-        padding: 0;
-        color: #333;
-      }
-
-      .container {
-        width: 80%;
-        margin: 50px auto;
-        background-color: #fff;
-        padding: 20px;
-        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-      }
-
-      h1 {
-        font-size: 36px;
-        font-weight: 800;
-        color: #242c2f;
-        text-align: center;
-        margin-bottom: 20px;
-      }
-
-      .coffee-details {
-        font-size: 16px;
-        font-weight: 300;
-        line-height: 24px;
-        margin-bottom: 20px;
-        text-align: justify;
-      }
-
-      .coffee-list {
-        font-size: 18px;
-        font-weight: 600;
-        margin-bottom: 20px;
-      }
-
-      .coffee-list li {
-        margin: 10px 0;
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 24px;
-      }
-
-      .back-button {
-        display: block;
-        width: 150px;
-        margin: 0 auto;
-        padding: 10px 20px;
-        background-color: #e34029;
-        color: white;
-        text-align: center;
-        text-decoration: none;
-        border-radius: 4px;
-        font-family: "Poppins", sans-serif;
-        font-size: 14px;
-        font-weight: 600;
-      }
-
-      .back-button:hover {
-        background-color: #d4321d;
-      }
+        body {
+            font-family: "Poppins", sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        
+        .container {
+            width: 80%;
+            margin: 50px auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        header {
+            background-color: #6f4c3e;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        h1 {
+            font-size: 50px;
+            margin-bottom: 10px;
+        }
+        
+        nav ul {
+            list-style: none;
+        }
+        
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: 400;
+            font-size: 20px;
+        }
+        
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+        
+        h2 {
+            font-size: 36px;
+            font-weight: 800;
+            color: #242c2f;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        .coffee-details {
+            font-size: 16px;
+            font-weight: 300;
+            line-height: 24px;
+            margin-bottom: 20px;
+            text-align: justify;
+        }
+        
+        .coffee-list {
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+        
+        .coffee-list li {
+            margin: 10px 0;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+        }
+        
+        .back-button {
+            display: block;
+            width: 150px;
+            margin: 0 auto;
+            padding: 10px 20px;
+            background-color: #e34029;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 4px;
+            font-family: "Poppins", sans-serif;
+            font-size: 14px;
+            font-weight: 600;
+        }
+        
+        .back-button:hover {
+            background-color: #d4321d;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #6f4c3e;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
     </style>
-  </head>
-  <body>
+</head>
+
+<body>
+    <header>
+        <h1>COFFO COFFEE</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="coffee-detail.html">Coffee</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
     <div class="container">
-      <h1>Types of Coffee</h1>
+        <h2>Types of Coffee</h2>
 
-      <p class="coffee-details">
-        Coffee is more than just a beverage; it's a lifestyle and a passion for
-        many. Here is a list of different types of coffee that are enjoyed
-        around the world.
-      </p>
+        <p class="coffee-details">
+            Coffee is more than just a beverage; it's a lifestyle and a passion for many. Here is a list of different types of coffee that are enjoyed around the world.
+        </p>
 
-      <ul class="coffee-list">
-        <li>
-          <strong>Espresso</strong> - A strong, concentrated coffee served in
-          small, strong shots.
-        </li>
-        <li>
-          <strong>Americano</strong> - A shot of espresso diluted with hot
-          water, offering a more mellow flavor.
-        </li>
-        <li>
-          <strong>Latte</strong> - Made with a shot of espresso and steamed
-          milk, topped with a small amount of froth.
-        </li>
-        <li>
-          <strong>Cappuccino</strong> - Similar to a latte but with a thicker
-          layer of foam and sometimes topped with cocoa powder or cinnamon.
-        </li>
-        <li>
-          <strong>Mocha</strong> - A blend of coffee, steamed milk, and
-          chocolate, often topped with whipped cream.
-        </li>
-        <li>
-          <strong>Macchiato</strong> - A shot of espresso with just a dash of
-          foamed milk on top.
-        </li>
-        <li>
-          <strong>Flat White</strong> - Originating from Australia, it's similar
-          to a latte but uses micro-foamed milk for a creamier texture.
-        </li>
-        <li>
-          <strong>Affogato</strong> - A dessert-like coffee where a scoop of
-          vanilla ice cream is "drowned" in a shot of hot espresso.
-        </li>
-      </ul>
+        <ul class="coffee-list">
+            <li>
+                <strong>Espresso</strong> - A strong, concentrated coffee served in small, strong shots.
+            </li>
+            <li>
+                <strong>Americano</strong> - A shot of espresso diluted with hot water, offering a more mellow flavor.
+            </li>
+            <li>
+                <strong>Latte</strong> - Made with a shot of espresso and steamed milk, topped with a small amount of froth.
+            </li>
+            <li>
+                <strong>Cappuccino</strong> - Similar to a latte but with a thicker layer of foam and sometimes topped with cocoa powder or cinnamon.
+            </li>
+            <li>
+                <strong>Mocha</strong> - A blend of coffee, steamed milk, and chocolate, often topped with whipped cream.
+            </li>
+            <li>
+                <strong>Macchiato</strong> - A shot of espresso with just a dash of foamed milk on top.
+            </li>
+            <li>
+                <strong>Flat White</strong> - Originating from Australia, it's similar to a latte but uses micro-foamed milk for a creamier texture.
+            </li>
+            <li>
+                <strong>Affogato</strong> - A dessert-like coffee where a scoop of vanilla ice cream is "drowned" in a shot of hot espresso.
+            </li>
+        </ul>
 
-      <a href="index.html" class="back-button">Back to Coffee Offer</a>
+        <a href="index.html" class="back-button">Back to Coffee Offer</a>
     </div>
-  </body>
+
+    <footer>
+        <p>&copy; [2024] Coffo Coffee. All rights reserved.</p>
+    </footer>
+</body>
+
 </html>
